@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Gamal — Software Engineer</title>
+<meta name="description" content="Ahmed Gamal — Computer Engineering student, Google Summer of Code '25 contributor (Debian / FOSSology), building backend and systems software.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="bg-glow glow-a"></div>
+<div class="bg-glow glow-b"></div>
+<div class="bg-glow glow-c"></div>
+
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="#top"><b>ahmed@gamal</b>:~$<span class="cursor"></span></a>
+    <div class="nav-links">
+      <a href="#about"><span>01.</span>about</a>
+      <a href="#experience"><span>02.</span>experience</a>
+      <a href="#projects"><span>03.</span>projects</a>
+      <a href="#teaching"><span>04.</span>teaching</a>
+      <a href="#skills"><span>05.</span>skills</a>
+      <a class="nav-cta" href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <header class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker">Hello world, I'm</div>
+        <h1 class="name">Ahmed Gamal</h1>
+        <div class="tagline">&gt; <span class="typed" id="typed"></span><span class="caret"></span></div>
+        <p class="hero-desc">
+          Computer Engineering student at <b>Menoufia University</b> and
+          <b>Google Summer of Code '25</b> contributor with the Debian Project.
+          I like understanding how systems work beneath the surface — architecture,
+          tooling, and the engineering decisions that make software reliable.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://github.com/Ahmed-Gamal24" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/ahmed-gamal4/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-ghost" href="#projects">view projects</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><div class="num">GSoC<em>'25</em></div><div class="lbl">DEBIAN · FOSSOLOGY</div></div>
+          <div class="stat"><div class="num">29<em>+</em></div><div class="lbl">DEBIAN PACKAGES</div></div>
+          <div class="stat"><div class="num">14<em></em></div><div class="lbl">PUBLIC REPOS</div></div>
+        </div>
+      </div>
+
+      <div class="terminal" id="terminal">
+        <div class="term-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <span class="term-title">ahmed@menoufia: ~/about</span>
+        </div>
+        <div class="term-body" id="term-body"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="wrap rv">
+    <div class="sec-head"><span class="sec-num">01.</span><h2 class="sec-title">About</h2><span class="sec-line"></span></div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a Computer Engineering student with a strong interest in <b>Linux, open-source software,
+          and systems engineering</b>. I enjoy understanding how things work beneath the surface — not just
+          writing code, but exploring the architecture, tooling, and decisions that make software
+          reliable and maintainable.
+        </p>
+        <p>
+          During <span class="hl">Google Summer of Code 2025</span>, I contributed to
+          <span class="hl">FOSSology</span>, the Linux Foundation's license-compliance toolkit: I packaged
+          <b>29 missing PHP dependencies</b> for Debian, migrated build systems to CMake, and verified
+          reproducible builds in Docker — working closely with Debian maintainers and the FOSSology community.
+        </p>
+        <p>
+          Right now I'm gaining industry experience as an <b>IT Intern at GUPCO</b> (Gulf of Suez Petroleum),
+          learning how enterprise IT supports large-scale operations — and sharpening my backend skills with
+          REST APIs, Spring Boot, and scalable system design on the side.
+        </p>
+        <p>
+          When I'm not coding, I'm <b>teaching</b>: I record Arabic playlists that break down
+          compiler design and computer organization for students like me.
+        </p>
+      </div>
+      <aside class="about-card">
+        <h3>// quick facts</h3>
+        <div class="fact"><span class="k">degree</span><span class="v">B.Sc. Computer Engineering, Menoufia University</span></div>
+        <div class="fact"><span class="k">focus</span><span class="v">Backend &amp; systems software</span></div>
+        <div class="fact"><span class="k">open source</span><span class="v">GSoC '25 — Debian / FOSSology</span></div>
+        <div class="fact"><span class="k">learning</span><span class="v">Spring Boot · React · system design</span></div>
+        <div class="fact"><span class="k">based in</span><span class="v">Egypt</span></div>
+        <div class="fact"><span class="k">github</span><span class="v"><a href="https://github.com/Ahmed-Gamal24" target="_blank" rel="noopener">@Ahmed-Gamal24</a></span></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="wrap rv">
+    <div class="sec-head"><span class="sec-num">02.</span><h2 class="sec-title">Experience</h2><span class="sec-line"></span></div>
+    <div class="xp-list">
+      <article class="xp">
+        <div class="xp-date"><b>JUN — AUG 2025</b>remote · open source</div>
+        <div class="xp-body">
+          <h3>Open Source Developer</h3>
+          <div class="org">Google Summer of Code 2025 · Debian Project (FOSSology)</div>
+          <p>
+            Enhanced the Debian packaging of FOSSology, turning it into a clean, installable package.
+            Created and maintained <b style="color:var(--text)">29 missing PHP dependency packages</b>, removed bundled libraries,
+            verified reproducible builds in Docker, and ran full functional testing of login, upload, and agent
+            workflows — collaborating with Debian maintainers on policy compliance.
+          </p>
+          <div class="xp-tags">
+            <span class="tag">Debian packaging</span><span class="tag">dpkg</span><span class="tag">debhelper</span>
+            <span class="tag">CMake</span><span class="tag">Docker</span><span class="tag">CI/CD</span>
+            <span class="tag">Shell</span><span class="tag">Git</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="xp">
+        <div class="xp-date"><b>JUL 2026</b>Maadi, Cairo</div>
+        <div class="xp-body">
+          <h3>Information Technology Intern</h3>
+          <div class="org">GUPCO — Gulf of Suez Petroleum Company</div>
+          <p>
+            Learning how enterprise IT supports large-scale business operations inside one of Egypt's
+            major petroleum companies — while continuing to grow both technical and professional skills.
+          </p>
+          <div class="xp-tags">
+            <span class="tag">Enterprise IT</span><span class="tag">Infrastructure</span><span class="tag">Operations</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="wrap rv">
+    <div class="sec-head"><span class="sec-num">03.</span><h2 class="sec-title">Projects</h2><span class="sec-line"></span></div>
+    <div class="proj-grid">
+
+      <article class="proj feat">
+        <div>
+          <div class="proj-top">
+            <span class="feat-badge">FEATURED</span>
+            <div class="proj-links">
+              <a href="https://ahmed-gamal24.github.io/dawak-app/" target="_blank" rel="noopener">live ↗</a>
+              <a href="https://github.com/Ahmed-Gamal24/dawak-app" target="_blank" rel="noopener">code ↗</a>
+            </div>
+          </div>
+          <h3>Dawak <span class="ar">دواك</span></h3>
+          <p>
+            A medication-reminder platform built around one promise: <b style="color:var(--text)">your day, simpler — your medicine, on time</b>.
+            Clear dose reminders, organized prescriptions exportable to PDF, a directory of verified doctors'
+            clinics, and consent-based follow-up for doctors and caregivers. Arabic-first, works offline for
+            scheduled local alerts, with an Android beta.
+          </p>
+          <div class="tags">
+            <span class="tag">Mobile app</span><span class="tag">Arabic / English</span>
+            <span class="tag">Offline-first</span><span class="tag">Healthcare</span>
+          </div>
+        </div>
+        <a class="feat-visual" href="https://ahmed-gamal24.github.io/dawak-app/" target="_blank" rel="noopener" style="text-decoration:none">
+          <div class="phone-frame"><img src="assets/dawak-today.webp" alt="Dawak app - the today screen, with the next dose one tap away"></div>
+          <div class="pill-sub">من واجهة التطبيق الفعلية · شاشة النهارده — the real today screen, next dose one tap away</div>
+          <span class="pill-cta">visit the app page ↗</span>
+        </a>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top">
+          <span class="proj-ico">✦</span>
+          <div class="proj-links"><a href="https://github.com/Ahmed-Gamal24/Soccer-Game-AI" target="_blank" rel="noopener">code ↗</a></div>
+        </div>
+        <h3>Soccer Game AI</h3>
+        <p>
+          A fully autonomous 2D soccer simulation in modern C++ — hierarchical finite state machines for
+          team strategy and player tactics, a real-time messaging system for coordinated play, and
+          physics-based kinematics with steering behaviors.
+        </p>
+        <div class="tags"><span class="tag">C++</span><span class="tag">FSM</span><span class="tag">Game AI</span><span class="tag">Multi-agent</span></div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top">
+          <span class="proj-ico">▤</span>
+          <div class="proj-links"><a href="https://github.com/Ahmed-Gamal24/LowLevel-Memory-Manager" target="_blank" rel="noopener">code ↗</a></div>
+        </div>
+        <h3>Low-Level Memory Manager</h3>
+        <p>
+          A custom memory allocator for C++: a structured heap that cuts allocation slowdowns, automated
+          leak tracking, and safety checks against corrupted memory — a controlled alternative to the
+          default system allocator.
+        </p>
+        <div class="tags"><span class="tag">C++</span><span class="tag">Allocators</span><span class="tag">Systems</span><span class="tag">Performance</span></div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top">
+          <span class="proj-ico">◈</span>
+          <div class="proj-links"><a href="https://github.com/Ahmed-Gamal24/Chicken-Invaders-Game" target="_blank" rel="noopener">code ↗</a></div>
+        </div>
+        <h3>Chicken Invaders</h3>
+        <p>
+          A 2D arcade shooter in modern C++ with clean OOP: an object-pooling system for bullets, enemies
+          and effects, and a real-time game loop with deterministic frame updates and collision detection.
+        </p>
+        <div class="tags"><span class="tag">C++</span><span class="tag">OOP</span><span class="tag">Object pooling</span><span class="tag">Game loop</span></div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top">
+          <span class="proj-ico">⌗</span>
+          <div class="proj-links"><a href="https://github.com/Ahmed-Gamal24/library-management-system" target="_blank" rel="noopener">code ↗</a></div>
+        </div>
+        <h3>Library Management System</h3>
+        <p>
+          A Java system for managing a library's books, members and borrowing workflow — built with a
+          focus on clean architecture and maintainable code.
+        </p>
+        <div class="tags"><span class="tag">Java</span><span class="tag">OOP</span><span class="tag">Architecture</span></div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top">
+          <span class="proj-ico">▸</span>
+          <div class="proj-links"><a href="https://github.com/Ahmed-Gamal24/CollegeTraining-Final-Project" target="_blank" rel="noopener">code ↗</a></div>
+        </div>
+        <h3>Online Learning Platform</h3>
+        <p>
+          Final college training project: a functional, well-documented web application for online
+          learning, built with Node.js and Express.
+        </p>
+        <div class="tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">REST API</span><span class="tag">Backend</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section id="teaching" class="wrap rv">
+    <div class="sec-head"><span class="sec-num">04.</span><h2 class="sec-title">Teaching</h2><span class="sec-line"></span></div>
+    <div class="teach-grid">
+      <a class="teach" href="https://youtube.com/playlist?list=PLY63ei_OBqhs" target="_blank" rel="noopener">
+        <div class="yt">▶ YOUTUBE PLAYLIST · ARABIC</div>
+        <h3>Compiler Design</h3>
+        <div class="ar">الدُّرر البهيّة في شرح المُترجمات الشقيّة</div>
+        <p>A full Arabic course on how compilers work — from source code to a running program, step by step.</p>
+        <span class="go">watch the playlist ↗</span>
+      </a>
+      <a class="teach" href="https://www.youtube.com/playlist?list=PLX8UCOLtJc27xBs5sJnZjF94uAwde6WWR" target="_blank" rel="noopener">
+        <div class="yt">▶ YOUTUBE PLAYLIST · ARABIC</div>
+        <h3>Computer Organization</h3>
+        <div class="ar">لنفهم كيف يعمل الحاسوب حقًا</div>
+        <p>14 lessons on how the computer really works: clock, registers, buses, micro-operations, memory and instructions.</p>
+        <span class="go">watch the playlist ↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="wrap rv">
+    <div class="sec-head"><span class="sec-num">05.</span><h2 class="sec-title">Skills</h2><span class="sec-line"></span></div>
+    <div class="skill-groups">
+      <div class="sg">
+        <h3>// systems &amp; languages</h3>
+        <div class="chips">
+          <span class="chip">C</span><span class="chip">C++</span><span class="chip">Java</span>
+          <span class="chip">Python</span><span class="chip">Shell scripting</span>
+        </div>
+      </div>
+      <div class="sg">
+        <h3>// backend &amp; web</h3>
+        <div class="chips">
+          <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Spring Boot</span>
+          <span class="chip">REST APIs</span><span class="chip">React</span><span class="chip">JavaScript</span>
+        </div>
+      </div>
+      <div class="sg">
+        <h3>// linux, devops &amp; tooling</h3>
+        <div class="chips">
+          <span class="chip">Linux</span><span class="chip">Docker</span><span class="chip">Git</span>
+          <span class="chip">CMake</span><span class="chip">CI/CD</span><span class="chip">GitHub Actions</span>
+          <span class="chip">Debian packaging</span><span class="chip">dpkg · debhelper</span>
+        </div>
+      </div>
+      <div class="sg">
+        <h3>// also explored</h3>
+        <div class="chips">
+          <span class="chip">AWS (cloud computing course)</span><span class="chip">System design</span>
+          <span class="chip">Reproducible builds</span><span class="chip">Open-source workflow</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="wrap contact rv">
+    <span class="sec-num">06. what's next?</span>
+    <h2>Let's build something <em>reliable</em>.</h2>
+    <p>
+      I'm always interested in opportunities to learn, contribute to meaningful projects,
+      and collaborate with people who enjoy solving challenging technical problems.
+    </p>
+    <div class="contact-btns">
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/ahmed-gamal4/" target="_blank" rel="noopener">message me on LinkedIn ↗</a>
+      <a class="btn btn-ghost" href="https://github.com/Ahmed-Gamal24" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="btn btn-ghost" href="https://www.youtube.com/@Ahmed-Gamal4296" target="_blank" rel="noopener">YouTube ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div class="q"><b>"Code for clarity, build for scalability."</b> — designed &amp; built by Ahmed Gamal</div>
+    <div class="links">
+      <a href="https://github.com/Ahmed-Gamal24" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/ahmed-gamal4/" target="_blank" rel="noopener">linkedin</a>
+      <a href="https://www.youtube.com/@Ahmed-Gamal4296" target="_blank" rel="noopener">youtube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
